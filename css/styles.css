@@ -1,4 +1,9 @@
 body {
+ /* background-color: blue !important; /*test*/
+}
+
+.jumbotron {
+	/* background-color: #007bff !important; */
 }
 
 .about {
@@ -10,4 +15,9 @@ body {
 .contact {
 }
 
- 
+footer {
+}
+
+footer a {
+	font-size:5vmin;
+}
