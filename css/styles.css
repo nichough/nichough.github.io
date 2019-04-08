@@ -1,9 +1,10 @@
 body {
- /* background-color: blue !important; /*test */
+background-color: #343a40 !important; /*testing */
 max-width: 1920px;
 margin: 0 auto !important;
-/* float: none !important; /* cant remember what this is for */
+/* float: none !important; /* cant remember what this was for */
 overflow-x: hidden;
+height: 100%;
 }
 
 
@@ -11,7 +12,48 @@ overflow-x: hidden;
 	/* background-color: #007bff !important; */
 }
 
+.fname {
+	display: inline;
+	position: relative;
+	font-family: 'Monoton', cursive;
+	
+	color: rgba(30,144,255 ,1);
+}
+
+.fname:after {
+	content: "Nicholas";
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	color: rgba(255,20,147 ,1);
+}
+
+.lname {
+	display: inline;
+	position: relative;
+	font-family: 'Monoton', cursive;
+	
+	color: rgba(255,20,147 ,1);
+}
+
+.lname:after {
+	content: "Hough";
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	color: rgba(30,144,255 ,1);
+}
+
+nav {
+
+}
+
+
 .about {
+}
+
+.info {
+	padding-bottom: 20px;
 }
 
 img {
@@ -20,7 +62,8 @@ img {
 
 ul {
 	list-style: none;
-
+	margin: 0;
+	padding: 0;
 }
 
 li {
@@ -40,4 +83,24 @@ footer {
 
 footer a {
 	font-size:5vmin;
+}
+
+p, li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.card-title {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 32px;
+}
+
+.card-img-overlay {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+hr {
+	width: 10%;
+	background-color: white;
 }
