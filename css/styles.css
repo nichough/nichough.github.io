@@ -10,6 +10,8 @@ height: 100%;
 
 .jumbotron {
 	/* background-color: #007bff !important; */
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/retro.jpg");
+	background-size: 100% 100%;
 }
 
 .fname {
@@ -42,6 +44,10 @@ height: 100%;
 	left: 5px;
 	top: 5px;
 	color: rgba(30,144,255 ,1);
+}
+
+.display-4 {
+	color: rgba(255,255,0 ,1);
 }
 
 nav {
