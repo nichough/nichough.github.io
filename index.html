@@ -10,25 +10,25 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> <!--font awesome-->
-	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Monoton|Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Monoton|Montserrat|League+Script|Quicksand" rel="stylesheet">
 </head>
+ <body data-spy="scroll" data-target=".navbar" data-offset="50">
  
- <body>
 <div class="jumbotron jumbotron-fluid mb-0" id="top">
-  <div class="container">
+  <div class="container text-center">
     <h1 class="display-4">Hi, I'm <span class="fname">Nicholas</span> <span class="lname">Hough</span>.</h1>
 	<h1 class="display-4">I'm a Web Developer.</h1>
   </div>
 </div><!-- end jumbotron -->
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-md-0">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="index.html">HOME</a>
+      <a class="nav-item nav-link active" href="#top">HOME</a>
       <a class="nav-item nav-link" href="#about">ABOUT</a>
       <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
       <a class="nav-item nav-link" href="Resume.pdf">RESUME</a>
@@ -38,22 +38,22 @@
 </nav> <!-- end nav -->
 
  
-<div class="about bg-secondary text-center text-white p-3" id="about">
+<div class="about bg-light text-center text-dark p-3" id="about">
 
 <h1 class="p-3">About</h1>
 	<hr>
 		<div class="container p-3">
 			<div class="row pt-5">
 				<div class="col-md-6 text-center">
-					<img src="img/nicAbout.png" alt="profile image">
+					<img src="img/new1.png" alt="profile image">
 					<p class="text-center info">I recently received my Associates of Applied Science in Software Development from the College of Western Idaho and currently continuing my education at Lewis Clark State College to receive my Bachelors of Applied Science in Website Design and Development. I really enjoy front end development.</p>
 				</div>
            			
 			<div class="col-md-6 text-center">
-				<h4 class="card-title">Tools I have worked with</h4>
+				<h4 class="card-title AboutDesc">Tools I have worked with</h4>
 
 				<div class="d-inline-block">
-					<ul class="round">
+					<ul>
 						<li>HTML5</li>
 						<li>CSS3</li>
 						<li>JavaScript</li>
@@ -91,7 +91,7 @@
 					<div class="card-img-overlay d-flex">
 						<div class="my-auto mx-auto text-center text-white">
 							<h4 class="card-title">Clunkers</h4>
-							<hr>
+							
 							<p class="card-text">This was a ongoing project across multiple semesters utilizing Bootstrap, JavaScript, JQuery, Vector Images, and Error handling to a database.</p>
 						</div>
 					</div></a>
@@ -105,7 +105,7 @@
 					<div class="card-img-overlay d-flex">
 						<div class="my-auto mx-auto text-center text-white">
 							<h4 class="card-title">Joomla</h4>
-							<hr>
+							
 							<p class="card-text">First project using a Content Management System.</p>
 						</div>
 					</div>
@@ -121,7 +121,7 @@
 					<div class="card-img-overlay d-flex">
 						<div class="my-auto mx-auto text-center text-white">
 							<h4 class="card-title">PHP</h4>
-							<hr>
+							
 							<p class="card-text">Group project handed down from students in previous semesters.  Using Agile software development, documenting, and working on updating PHP versions.</p>
 						</div>
 					</div>
@@ -135,7 +135,7 @@
 					<div class="card-img-overlay d-flex">
 						<div class="my-auto mx-auto text-center text-white">
 							<h4 class="card-title">WordPress</h4>
-							<hr>
+							
 							<p class="card-text">I had to teach myself a new technology for a semester and picked WordPress and created another portfolio project.</p>
 						</div>
 					</div>
@@ -145,10 +145,13 @@
 	</div>
 </div><!--end portfolio-->
 
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1961.54 117.23"><defs><style>.cls-1{fill:#6c757d;}</style></defs><title>Untitled-5</title>
+<path class="cls-1" d="M960,117.23-21.69,44.62V0H1939.85V42.23Z" transform="translate(21.69)"/></svg>
 
-<div class="contact bg-secondary text-center text-white p-3" id="contact">
+<div class="contact bg-dark text-center text-white p-3" id="contact">
 
 <h1 class="p-3">Contact</h1>
+
 <hr>
 	<div class="container pt-5 pb-5">
 		<form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/nmhough@lcmail.lcsc.edu" method="POST">

@@ -18,8 +18,7 @@ height: 100%;
 	display: inline;
 	position: relative;
 	font-family: 'Monoton', cursive;
-	
-	color: rgba(30,144,255 ,1);
+	color: rgba(255,20,147 ,1);
 }
 
 .fname:after {
@@ -27,14 +26,13 @@ height: 100%;
 	position: absolute;
 	left: 5px;
 	top: 5px;
-	color: rgba(255,20,147 ,1);
+	color: rgba(30,144,255 ,1);
 }
 
 .lname {
 	display: inline;
 	position: relative;
 	font-family: 'Monoton', cursive;
-	
 	color: rgba(255,20,147 ,1);
 }
 
@@ -47,7 +45,7 @@ height: 100%;
 }
 
 .display-4 {
-	color: rgba(255,255,0 ,1);
+	color: white;
 }
 
 nav {
@@ -55,15 +53,12 @@ nav {
 }
 
 
-.about {
-}
-
 .info {
 	padding-bottom: 20px;
 }
 
 img {
-	width: 20%;
+	width: 60%;
 }
 
 ul {
@@ -77,13 +72,6 @@ li {
 }
 
 
-
-.portfolio {
-}
-
-.contact {
-}
-
 footer {
 }
 
@@ -91,9 +79,10 @@ footer a {
 	font-size:5vmin;
 }
 
-p, li{
+
+p {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 }
 
@@ -109,4 +98,16 @@ p, li{
 hr {
 	width: 10%;
 	background-color: white;
+}
+
+.AboutDesc {
+	font-size: 42px;
+	font-family: 'Libre Baskerville', serif;
+	padding-bottom: 20px;
+}
+
+li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
 }
