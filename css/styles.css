@@ -52,14 +52,50 @@ nav {
 
 }
 
+hr {
+	width: 10%;
+	background-color: white;
+}
+
+.abt {
+	content: 'About';
+ 	display: inline;
+	position: relative;
+	opacity: .6;
+}
+
+
+	.abt:after {
+		content: 'About';
+		position: absolute;
+        color: rgba(30,144,255 ,1);
+		left: 1px;
+		top:1px;
+		opacity: .3;
+    } 
+	.abt:before {
+		content: 'About';
+		position: absolute;
+        color: rgba(255,20,147 ,1);
+		left: 2px;
+		z-index: -1;
+    } 
+	
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+img {
+	width: 60%;
+}
 
 .info {
 	padding-bottom: 20px;
 }
 
-img {
-	width: 60%;
-}
 
 ul {
 	list-style: none;
@@ -68,23 +104,38 @@ ul {
 }
 
 li {
+		
 	text-align: center;
-}
-
-
-footer {
-}
-
-footer a {
-	font-size:5vmin;
-}
-
-
-p {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 5px;
+	text-shadow: .02em .02em rgba(255,20,147 ,1);
 }
+
+.port {
+	content: 'Portfolio';
+ 	display: inline;
+	position: relative;
+	opacity: .6;
+}
+
+
+	.port:after {
+		content: 'Portfolio';
+		position: absolute;
+        color: rgba(30,144,255 ,1);
+		left: 1px;
+		top:1px;
+		opacity: .3;
+    } 
+	.port:before {
+		content: 'Portfolio';
+		position: absolute;
+        color: rgba(255,20,147 ,1);
+		left: 2px;
+		z-index: -1;
+    } 
 
 .card-title {
 	font-family: 'Libre Baskerville', serif;
@@ -95,20 +146,42 @@ p {
 	background: rgba(0, 0, 0, 0.7);
 }
 
-hr {
-	width: 10%;
-	background-color: white;
-}
+
 
 .AboutDesc {
 	font-size: 42px;
 	font-family: 'Libre Baskerville', serif;
 	padding-bottom: 30px;
+	text-shadow: .03em .03em rgba(30,144,255 ,1);
 }
 
-li {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 32px;
-	font-weight: bold;
-	padding: 5px;
+.cont {
+	content: 'Contact';
+ 	display: inline;
+	position: relative;
+	opacity: .6;
+}
+
+
+	.cont:after {
+		content: 'Contact';
+		position: absolute;
+        color: rgba(30,144,255 ,1);
+		left: 1px;
+		top:1px;
+		opacity: .3;
+    } 
+	.cont:before {
+		content: 'Contact';
+		position: absolute;
+        color: rgba(255,20,147 ,1);
+		left: 2px;
+		z-index: -1;
+    } 
+
+footer {
+}
+
+footer a {
+	font-size:5vmin;
 }
